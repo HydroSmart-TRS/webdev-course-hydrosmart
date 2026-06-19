@@ -1,5 +1,65 @@
-# Fundamentos de Desarrollo Web
+<div align="center">
 
+![Logo Upc](https://i.postimg.cc/4NBrwbx6/logo-upc1.png)
+
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+
+### Carrera: Ingeniería de Software
+### Introduction to Html & Css Course
+### PROFESOR: Rafael Oswaldo Castro Veramendi
+### NRC: 12263
+### 1ASI0730
+## INFORME TRABAJO COMPLEMENTARIO
+
+
+
+---
+
+### INTEGRANTES:
+
+<div align="center">
+
+<table style="text-align:center;">
+  <thead>
+    <tr>
+      <th style="background-color: #333; color: #fff; padding: 8px;">Apellidos y Nombres</th>
+      <th style="background-color: #333; color: #fff; padding: 8px;">Código de Alumno</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Angelo Stephano Moscoso Bejar</td>
+      <td>U20211G499</td>
+    </tr>
+    <tr>
+      <td>Yeira Shari Huaman Olivos</td>
+      <td>U202210513</td>
+    </tr>
+    <tr>
+      <td>Keyner Ivan Hancco Poma</td>
+      <td>U20221C726</td>
+    </tr>
+    <tr>
+      <td>Gabriela Luciana Tirado Carrera</td>
+      <td>U202419592</td>
+    </tr>
+    <tr>
+      <td>Diego Ismael Guevara Serrano</td>
+      <td>U202318951</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+### 2026-10
+
+
+</div>
+
+# Introducción al Desarrollo Web
 ## Resumen del Curso
 
 Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. **¡No requiere descargas!** Solo abre tu navegador web.
