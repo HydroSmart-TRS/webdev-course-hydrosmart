@@ -47,7 +47,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - **Descripción**: Combina HTML y CSS para construir una página de perfil personal completa.
 - **Enlace**: [Ver la lección](https://youtu.be/QPGwCkdQXeo)
 - **Consejos clave**: Reutiliza el código brindado en este curso, solo cópialo y pégalo para empezar a editar tu propia carta de perfil con tu estilo.
-- **Proyecto final**: [Crea tu Perfil](PENDIENTE-LINK-EDITOR) 👈 **¡Guarda y comparte!**
+- **Proyecto final**: [Crea tu Perfil](https://jsfiddle.net) 👈 **¡Guarda y comparte!**
 
 ### Lección 6:  Recomendaciones y errores comunes para principiantes (10 minutos)
 
