@@ -1,0 +1,120 @@
+
+============================================================
+ ===== 2) CSS  (va en el panel CSS de CodePen) =====
+============================================================
+ 
+/* 1) El "fondo" de toda la pagina.
+   Pintamos un degradado de color y centramos la carta en el medio de la pantalla. */
+body {
+  margin: 0;                          /* quita el espacio en blanco que el navegador pone por defecto */
+  min-height: 100vh;                  /* hace que el fondo ocupe toda la altura de la pantalla */
+  display: flex;                      /* "flex" nos deja acomodar las cosas facilmente */
+  justify-content: center;            /* centra de izquierda a derecha */
+  align-items: center;                /* centra de arriba a abajo */
+  font-family: Arial, sans-serif;     /* el tipo de letra de toda la pagina */
+  background: linear-gradient(135deg, #7b2ff7, #2f80ed);  /* degradado morado -> azul */
+}
+ 
+/* 2) La carta: la cajita blanca donde vive todo nuestro perfil. */
+.carta {
+  background-color: #ffffff;          /* fondo blanco */
+  width: 320px;                       /* ancho de la carta */
+  padding: 30px;                      /* espacio interno para que nada quede pegado al borde */
+  border-radius: 24px;                /* esquinas redondeadas */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);  /* sombra para que parezca que "flota" */
+  text-align: center;                 /* centra el texto dentro de la carta */
+}
+ 
+/* 3) El avatar: el circulo grande con un emoji.
+   (Mas adelante puedes cambiar el emoji por tu propia foto con la etiqueta <img>.) */
+.avatar {
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(135deg, #7b2ff7, #2f80ed);  /* mismo degradado que el fondo */
+  border-radius: 50%;                 /* 50% convierte el cuadrado en un circulo perfecto */
+  margin: 0 auto 15px auto;           /* lo centra y deja espacio abajo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;                    /* tamano del emoji */
+}
+ 
+/* 4) El nombre y el @usuario */
+.nombre {
+  font-size: 24px;
+  margin: 0;                          /* quitamos el espacio que trae por defecto */
+  color: #1a1a2e;
+}
+ 
+.usuario {
+  color: #7b2ff7;                     /* morado para que resalte */
+  font-weight: bold;
+  margin: 4px 0 12px 0;
+}
+ 
+/* 5) El estado / mensaje principal.
+   Esta es la "pastilla" dorada que resalta debajo del usuario: el detalle que
+   hace que este texto no se vea como uno mas, sino como el mensaje estrella de la carta. */
+.estado {
+  display: inline-block;              /* para poder darle forma de etiqueta/pastilla */
+  background-color: #ffc933;          /* dorado */
+  color: #1a1a2e;                     /* texto oscuro para que se lea bien sobre el dorado */
+  padding: 6px 16px;                  /* espacio interno que le da el cuerpo de pastilla */
+  border-radius: 20px;                /* esquinas muy redondeadas = forma de pastilla */
+  font-size: 13px;
+  font-weight: bold;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);  /* una sombrita para que resalte aun mas */
+}
+ 
+/* 6) La descripcion / bio */
+.bio {
+  color: #555555;                     /* gris suave, mas relajado para leer */
+  font-size: 15px;
+  line-height: 1.5;                   /* separa un poco las lineas para que respire */
+}
+ 
+/* 7) La lista de "cosas que me gustan".
+   Le quitamos los puntos de la lista y la centramos. */
+.gustos {
+  list-style: none;                   /* quita los puntitos por defecto de la lista */
+  padding: 0;
+  color: #333333;
+  font-size: 15px;
+}
+ 
+.gustos li {
+  margin: 6px 0;                      /* un poco de aire entre cada gusto */
+}
+ 
+/* 8) El boton magico (el que cambia el look al hacer clic) */
+.boton-fan {
+  background: linear-gradient(135deg, #7b2ff7, #2f80ed);
+  color: #ffffff;
+  border: none;                       /* le quitamos el borde gris feo que trae por defecto */
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;                    /* hace que el mouse se vea como "manita" al pasar encima */
+  margin-top: 10px;
+  transition: transform 0.15s;        /* hace el cambio suave en lugar de brusco */
+}
+ 
+/* :hover = "cuando paso el mouse por encima".
+   Aqui hacemos que el boton crezca un poquito: ese detalle se siente premium. */
+.boton-fan:hover {
+  transform: scale(1.05);
+}
+ 
+/* 9) LA ANIMACION "SALTO".
+   Aqui describimos el movimiento: la carta crece e inclina un poco, y vuelve a su lugar. */
+@keyframes salto {
+  0%   { transform: scale(1)    rotate(0deg);  }
+  40%  { transform: scale(1.08) rotate(-3deg); }  /* crece e inclina */
+  100% { transform: scale(1)    rotate(0deg);  }  /* vuelve a la normalidad */
+}
+ 
+/* Cuando la carta tenga la clase "animar", reproduce la animacion en 0.4 segundos. */
+.carta.animar {
+  animation: salto 0.4s ease;
+}
