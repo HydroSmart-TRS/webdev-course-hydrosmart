@@ -91,16 +91,16 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 ### Lección 3: Más Elementos HTML (8 minutos)
 
 - **Descripción**: Agrega listas, imágenes y enlaces para que tu página sea interactiva.
-- **Enlace**: [Ver la lección](PENDIENTE-LINK-YOUTUBE)
+- **Enlace**: [Ver la lección](https://youtu.be/WJgGMMDKxhM)
 - **Consejos clave**: Usa las etiquetas `<ul>`, `<img>`, `<a>`.
-- **Práctica**: [Clic para programar](PENDIENTE-LINK-EDITOR) 👈 **¡Comienza al instante!**
+- **Práctica**: [Clic para programar](https://codesandbox.io/p/sandbox/xzctct?file=%2Findex.html%3A1%2C44)) 👈 **¡Comienza al instante!**
 
 ### Lección 4: Introducción a CSS (12 minutos)
 
 - **Descripción**: Dale estilo a tu HTML con colores, fuentes y diseños.
-- **Enlace**: [Ver la lección](PENDIENTE-LINK-YOUTUBE)
+- **Enlace**: [Ver la lección](https://youtu.be/c6Y8WYmJ2oo?si=SZMT_exKgyvljjUt)
 - **Consejos clave**: Vincular CSS, usar selectores como `body { background-color: blue; }`.
-- **Práctica**: [Clic para programar](PENDIENTE-LINK-EDITOR) 👈 **¡No es necesario registrarse!**
+- **Práctica**: [Clic para programar](https://codesandbox.io/p/sandbox/xzctct?file=%2Fstyles.css) 👈 **¡No es necesario registrarse!**
 
 ### Lección 4.1: Estilos CSS Básico (4:04 minutos)
 - **Descripción**: Introducción práctica a las propiedades fundamentales de CSS para estructurar, espaciar y transformar el diseño visual de una página web
