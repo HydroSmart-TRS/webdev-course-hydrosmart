@@ -72,21 +72,12 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 
 ---
 
-## Secuencia de la Lección
+### Lección 1 y 2 : Introducción al desarrollo web y Estructura HTML básica (6:34 minutos)
+- **Descripción**: Descubre qué es un sitio web y aprende la estructura fundamental de HTML, entendiendo cómo utilizar etiquetas, elementos y atributos para construir tu primera página.
+- **Enlace**: [Ver la lección](https://youtu.be/XbKnONkWaHk)
+- **Consejos clave**: Recuerda que la mayoría de las etiquetas HTML necesitan abrirse y cerrarse (con una barra diagonal `/`), y que los atributos siempre se colocan dentro de la etiqueta de apertura.
+- **Práctica**: [Ponlo en Práctica](https://codepen.io/pen/)
 
-### Lección 1: ¿Qué es el Desarrollo Web? (5 minutos)
-
-- **Descripción**: Aprende de qué están hechos los sitios web y por qué HTML y CSS son los componentes básicos.
-- **Enlace**: [Ver la lección](PENDIENTE-LINK-YOUTUBE)
-- **Consejos clave**: Sitios web = Contenido (HTML) + Estilo (CSS).
-- **Empieza a programar**: [Abrir CodePen](PENDIENTE-LINK-EDITOR)
-
-### Lección 2: Introducción a HTML (10 minutos)
-
-- **Descripción**: Explora las etiquetas HTML básicas y crea tu primera página.
-- **Enlace**: [Ver la lección](PENDIENTE-LINK-YOUTUBE)
-- **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`.
-- **Práctica**: [Clic para programar](PENDIENTE-LINK-EDITOR) 👈 **¡No necesitas registrarte!**
 
 ### Lección 3: Más Elementos HTML (8 minutos)
 
