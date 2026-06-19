@@ -42,6 +42,12 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - **Consejos clave**: Vincular CSS, usar selectores como `body { background-color: blue; }`.
 - **Práctica**: [Clic para programar](PENDIENTE-LINK-EDITOR) 👈 **¡No es necesario registrarse!**
 
+### Lección 4.1: Estilos CSS Básico (4:04 minutos)
+- **Descripción**: Introducción práctica a las propiedades fundamentales de CSS para estructurar, espaciar y transformar el diseño visual de una página web
+- **Enlace**: [Ver la lección](https://youtu.be/82UMkhGesZA)
+- **Consejos clave**: Usa siempre box-sizing: border-box; para que el padding y el border no alteren el tamaño total de tus elementos.
+- **Práctica**: [Ponlo en  Práctica](https://codesandbox.io/p/sandbox/dnzq3j?file=%2Findex.html) 👈
+
 ### Lección 5: Crea tu Carta de Perfil con HTML y CSS (15 minutos)
 
 - **Descripción**: Combina HTML y CSS para construir una página de perfil personal completa.
@@ -49,12 +55,10 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - **Consejos clave**: Reutiliza el código brindado en este curso, solo cópialo y pégalo para empezar a editar tu propia carta de perfil con tu estilo.
 - **Proyecto final**: [Crea tu Perfil](https://jsfiddle.net) 👈 **¡Guarda y comparte!**
 
-### Lección 6:  Recomendaciones y errores comunes para principiantes (10 minutos)
-
-- **Descripción**:
-- **Enlace**: [Ver la lección](https://youtu.be/QPGwCkdQXeo)
-- **Consejos clave**:
-- **Proyecto final**: [Crea tu Perfil](PENDIENTE-LINK-EDITOR) 👈 **¡Guarda y comparte!**
+### Lección 6: Consejos y Próximos Pasos (5:34 minutos)
+- **Descripción**: Análisis de buenas prácticas, depuración de errores comunes y metodologías esenciales para escalar tus proyectos web de forma profesional.
+- **Enlace**: [Ver la lección](https://youtu.be/oAT1ZN2XN80) 👈
+- **Consejos clave**: Escribe siempre nombres de clases semánticos y descriptivos (como .boton-guardar) para mantener tu código legible y escalable.
 
 ---
 
